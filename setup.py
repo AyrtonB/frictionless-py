@@ -66,7 +66,7 @@ INSTALL_REQUIRES = [
     "stringcase>=1.2",
     # NOTE: Remove click after this issue is resolved:
     # https://github.com/tiangolo/typer/issues/280
-    "click>=7.1.1,<7.2.0",
+    "click>=7.1.1,<=8.0.0",
     "typer[all]>=0.3",
     "validators>=0.18",
     "python-slugify>=1.2",
